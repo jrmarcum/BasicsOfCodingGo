@@ -1,0 +1,25 @@
+// This work was originally from Mark McGranaghan at
+// https://github.com/mmcgrana/gobyexample
+// And licensed under a Creative Commons Attribution 3.0 Unported License
+// http://creativecommons.org/licenses/by/3.0/
+// It has been used to provide an example base for multiple languages to
+// provide a basis of comparitive programming language study for syntax,
+// language simplicity, number of lines of code and operations required to
+// perform the same task, as well as compile and run speed combined.
+
+_______________________________________________________________________________
+# When we run this program the ticker should tick 3 times
+# before we stop it.
+
+_______________________________________________________________________________
+Run Command:
+
+$ go run tickers.go
+
+_______________________________________________________________________________
+Results (Example below: dates and times will vary with machine and runtime):
+
+Tick at 2012-09-23 11:29:56.487625 -0700 PDT
+Tick at 2012-09-23 11:29:56.988063 -0700 PDT
+Tick at 2012-09-23 11:29:57.488076 -0700 PDT
+Ticker stopped
