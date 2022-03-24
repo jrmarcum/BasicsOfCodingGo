@@ -3,7 +3,7 @@ ___
 ___
 ##### Run Command:
 
-`$ v run collection-functions.v`
+`$ go run collection-functions.go`
 ___
 ##### Results:
 
