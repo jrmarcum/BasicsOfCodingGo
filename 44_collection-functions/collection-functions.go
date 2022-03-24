@@ -3,7 +3,8 @@
 // satisfy a given predicate or mapping all items to a new
 // collection with a custom function.
 
-// In some languages it's idiomatic to use [generic](http://en.wikipedia.org/wiki/Generic_programming)
+// In some languages it's idiomatic to use
+// [generic](http://en.wikipedia.org/wiki/Generic_programming)
 // data structures and algorithms. Go does not support
 // generics; in V it's common to provide collection
 // functions if and when they are specifically needed for
