@@ -1,0 +1,33 @@
+// This work was originally from Mark McGranaghan at
+// https://github.com/mmcgrana/gobyexample
+// And licensed under a Creative Commons Attribution 3.0 Unported License
+// http://creativecommons.org/licenses/by/3.0/
+// It has been used to provide an example base for multiple languages to
+// provide a basis of comparitive programming language study for syntax,
+// language simplicity, number of lines of code and operations required to
+// perform the same task, as well as compile and run speed combined.
+
+_______________________________________________________________________________
+# To try out our line filter, first make a file with a few lowercase lines.
+# If "lines.txt" file exists delete it before doing the exercise. 
+
+_______________________________________________________________________________
+Run Command:
+
+$ echo 'hello'   > ./tmp/lines.txt
+
+$ echo 'filter' >> ./tmp/lines.txt
+
+_______________________________________________________________________________
+# Then use the line filter to get uppercase lines.
+
+_______________________________________________________________________________
+Run Command:
+
+$ cat ./tmp/lines.txt | go run line-filters.go
+
+_______________________________________________________________________________
+Results:
+
+HELLO
+FILTER
