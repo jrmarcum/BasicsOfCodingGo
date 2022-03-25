@@ -1,1 +1,1 @@
-# GoByExample
+# Basics of Coding Go
