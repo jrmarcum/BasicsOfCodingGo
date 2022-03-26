@@ -1,7 +1,7 @@
 ___
 #### To run the program, make sure you are in the program's folder, then use the Run Command below.
 ___
-# We receive the values `"one"` and then `"two"` as expected.
+#### We receive the values `"one"` and then `"two"` as expected.
 ___
 ##### Run Command:
 
