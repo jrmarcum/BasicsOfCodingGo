@@ -19,10 +19,10 @@ ___
 #### If we set `BAR` in the environment first, the running program picks that value up.
 ___
 ##### Run Command:
-
-`$ $Env:BAR=2 go run environment-variables.go (for Windows 10)`
-`$ BAR=2 go run environment-variables.go (for unix like environments)`
-
+```
+$ $Env:BAR=2 go run environment-variables.go (for Windows 10)
+$ BAR=2 go run environment-variables.go (for unix like environments)
+```
 ##### Results:
 ```
 FOO: 1
