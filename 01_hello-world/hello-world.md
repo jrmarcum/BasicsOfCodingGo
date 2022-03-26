@@ -37,7 +37,7 @@ Results:
 
 hello-world.exe (or hello-world)
 hello-world.go
-hello-worl.txt
+hello-worl.md
 
 _______________________________________________________________________________
 # We can then execute the built binary directly.
