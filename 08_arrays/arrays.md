@@ -1,15 +1,16 @@
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
 
-
-_______________________________________________________________________________
+___
 # Note that arrays appear in the form `[v1 v2 v3 ...]`
 # when printed with `fmt.Println`.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run arrays.go
 
-_______________________________________________________________________________
+
 Results:
 
 emp: [0 0 0 0 0]

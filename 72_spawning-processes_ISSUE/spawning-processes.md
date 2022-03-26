@@ -1,15 +1,16 @@
 
-
-_______________________________________________________________________________
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
+___
 # The spawned programs return output that is the same
 # as if we had run them directly from the command-line.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run spawning-processes.go
 
-_______________________________________________________________________________
+
 Results:
 
 > date

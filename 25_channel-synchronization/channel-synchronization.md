@@ -1,16 +1,17 @@
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
 
-
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run channel-synchronization.go
 
-_______________________________________________________________________________
+
 Results:
    
 working...done                  
 
-_______________________________________________________________________________
+___
 # If you removed the `<- done` line from this program, the
 # program would exit before the `worker` even
 # started.

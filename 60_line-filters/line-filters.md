@@ -1,25 +1,26 @@
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
 
-
-_______________________________________________________________________________
+v
 # To try out our line filter, first make a file with a few lowercase lines.
 # If "lines.txt" file exists delete it before doing the exercise. 
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ echo 'hello'   > ./tmp/lines.txt
 
 $ echo 'filter' >> ./tmp/lines.txt
 
-_______________________________________________________________________________
+___
 # Then use the line filter to get uppercase lines.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ cat ./tmp/lines.txt | go run line-filters.go
 
-_______________________________________________________________________________
+
 Results:
 
 HELLO

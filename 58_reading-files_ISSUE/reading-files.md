@@ -1,20 +1,21 @@
 
-
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
 
 # Create a new file with some data to read.
-_______________________________________________________________________________
+___
 Run Command:
 
 $ echo "hello" > dat.txt
 
 $ echo "go" >>   dat.txt
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run reading-files.go
 
-_______________________________________________________________________________
+
 Results:
 
 hello

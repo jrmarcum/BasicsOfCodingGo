@@ -1,16 +1,17 @@
 
-
-_______________________________________________________________________________
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
+v
 # Running the program shows that we executed about
 # 90,000 total operations against our `mutex`-synchronized
 # `state`.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run mutexes.go
 
-_______________________________________________________________________________
+
 Results (Example shown below: the result will vary with machine and run):
 
 readOps: 83285

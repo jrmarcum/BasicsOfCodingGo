@@ -1,15 +1,16 @@
 
-
-_______________________________________________________________________________
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
+___
 # Running this program shows the first operation timing
 # out and the second succeeding.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run timeouts.go
 
-_______________________________________________________________________________
+
 Results:
  
 timeout 1

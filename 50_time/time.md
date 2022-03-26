@@ -1,5 +1,5 @@
 ___
-#### To run the program, make sure you are in the 50_time folder then use the Run Command below. See `general.md` for useful information.
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
 ___
 ##### Run Command:
 

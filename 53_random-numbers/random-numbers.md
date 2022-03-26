@@ -1,11 +1,12 @@
 
-
-_______________________________________________________________________________
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
+v
 Run Command:
 
 $ go run random-numbers.go
 
-_______________________________________________________________________________
+
 Results (Example below: number will vary per run):
 
 81,87
@@ -15,7 +16,7 @@ Results (Example below: number will vary per run):
 5,87
 5,87
 
-_______________________________________________________________________________
+___
 # See the [`math/rand`](http://golang.org/pkg/math/rand/)
 # package docs for references on other random quantities
 # that Go can provide.

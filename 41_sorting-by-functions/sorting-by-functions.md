@@ -1,20 +1,21 @@
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
 
-
-_______________________________________________________________________________
+___
 # Running our program shows a list sorted by string
 # length, as desired.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run sorting-by-functions.go
 
-_______________________________________________________________________________
+
 Results:
 
 [kiwi peach banana]
 
-_______________________________________________________________________________
+___
 # By following this same pattern of creating a custom
 # type, implementing the three `Interface` methods on that
 # type, and then calling sort.Sort on a collection of that

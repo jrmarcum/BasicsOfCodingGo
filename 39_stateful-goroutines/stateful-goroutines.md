@@ -1,22 +1,23 @@
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
 
-
-_______________________________________________________________________________
+___
 # Running our program shows that the goroutine-based
 # state management example completes about 80,000
 # total operations.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run stateful-goroutines.go
 
-_______________________________________________________________________________
+
 Results (Example below: results will vary per run):
 
 readOps: 71708
 writeOps: 7177
 
-_______________________________________________________________________________
+___
 # For this particular case the goroutine-based approach
 # was a bit more involved than the mutex-based one. It
 # might be useful in certain cases though, for example

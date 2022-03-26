@@ -1,11 +1,12 @@
 
-
-_______________________________________________________________________________
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
+___
 Run Command:
 
 $ go run interfaces.go
 
-_______________________________________________________________________________
+
 Results:
 
 {3 4}
@@ -15,7 +16,7 @@ Results:
 78.53981633974483
 31.41592653589793
 
-_______________________________________________________________________________
+___
 # To learn more about Go's interfaces, check out this
 # [great blog post](http://jordanorelli.tumblr.com/post/32665860244/how-to-use-interfaces-in-go).
 

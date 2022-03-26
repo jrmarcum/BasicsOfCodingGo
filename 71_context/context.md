@@ -1,24 +1,25 @@
 
-
-_______________________________________________________________________________
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
+___
 # Run the server in the background.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run context.go
 
-_______________________________________________________________________________
+___
 # Simulate a client request to `/hello`, hitting
 # Ctrl+C shortly after starting to signal
 # cancellation.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ curl localhost:8090/hello
 
-_______________________________________________________________________________
+
 Results:
 
 server: hello handler started

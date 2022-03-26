@@ -1,17 +1,18 @@
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
 
-
-_______________________________________________________________________________
+___
 # We expect to get exactly 50,000 operations. Had we used the non-atomic
 # `ops++` to increment the counter, we'd likely get a different number,
 # changing between runs, because the goroutines would interfere with each other.
 # Moreover, we'd get data race failures when running with the `-race` flag.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run atomic-counters.go
 
-_______________________________________________________________________________
+
 Results:
 
 ops: 50000

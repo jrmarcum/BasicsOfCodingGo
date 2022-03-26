@@ -1,14 +1,15 @@
 
-
-_______________________________________________________________________________
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
+___
 # Run all tests in the current project in verbose mode.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go test -v
 
-_______________________________________________________________________________
+
 Results:
 
 == RUN   TestIntMinBasic

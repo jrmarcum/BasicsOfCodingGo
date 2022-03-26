@@ -1,16 +1,17 @@
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
 
-
-_______________________________________________________________________________
+___
 # Running this program will cause it to panic, print
 # an error message and goroutine traces, and exit with
 # a non-zero status.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run panic.go
 
-_______________________________________________________________________________
+
 Results:
 
 panic: a problem
@@ -21,7 +22,7 @@ main.main()
 ...
 exit status 2
 
-_______________________________________________________________________________
+v
 # Note that unlike some languages which use exceptions
 # for handling of many errors, in Go it is idiomatic
 # to use error-indicating return values wherever possible.

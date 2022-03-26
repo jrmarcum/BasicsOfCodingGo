@@ -1,17 +1,18 @@
 
-
-_______________________________________________________________________________
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
+___
 # When we run this program, we see the output of the
 # blocking call first, then the interleaved output of the
 # two goroutines. This interleaving reflects the
 # goroutines being run concurrently by the Go runtime.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run goroutines.go
 
-_______________________________________________________________________________
+
 Results:
 
 direct : 0

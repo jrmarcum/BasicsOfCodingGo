@@ -1,11 +1,12 @@
 
-
-_______________________________________________________________________________
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
+___
 Run Command:
 
 $ go run channel-buffering.go
 
-_______________________________________________________________________________
+
 Results:
 
 buffered

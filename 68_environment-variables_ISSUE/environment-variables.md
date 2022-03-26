@@ -1,16 +1,17 @@
 
-
-_______________________________________________________________________________
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
+___
 # Running the program shows that we pick up the value
 # for `FOO` that we set in the program, but that
 # `BAR` is empty.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run environment-variables.go
 
-_______________________________________________________________________________
+
 Results:
 
 FOO: 1
@@ -21,16 +22,16 @@ BAR:
 # The total list of keys in the environment will depend on your
 # particular machine.
 
-_______________________________________________________________________________
+___
 # If we set `BAR` in the environment first, the running
 # program picks that value up.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ BAR=2 go run environment-variables.go
 
-_______________________________________________________________________________
+
 Results:
 
 FOO: 1

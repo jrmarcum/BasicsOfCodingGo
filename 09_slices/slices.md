@@ -1,15 +1,16 @@
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
 
-
-_______________________________________________________________________________
+___
 # Note that while slices are different types than arrays,
 # they are rendered similarly by `fmt.Println`.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run slices.go
 
-_______________________________________________________________________________
+
 Results:
 
 emp: [  ]
@@ -24,7 +25,7 @@ sl3: [c d e f]
 dcl: [g h i]
 2d:  [[0] [1 2] [2 3 4]]
 
-_______________________________________________________________________________
+___
 # Check out this [great blog post](http://blog.golang.org/2011/01/go-slices-usage-and-internals.html)
 # by the Go team for more details on the design and
 # implementation of slices in Go.

@@ -1,11 +1,12 @@
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
 
-
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run variadic-functions.go
 
-_______________________________________________________________________________
+
 Results:
  
 [1 2] 3

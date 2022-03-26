@@ -1,15 +1,16 @@
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
 
-
-_______________________________________________________________________________
+___
 # When we run this program the ticker should tick 3 times
 # before we stop it.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run tickers.go
 
-_______________________________________________________________________________
+
 Results (Example below: dates and times will vary with machine and runtime):
 
 Tick at 2012-09-23 11:29:56.487625 -0700 PDT

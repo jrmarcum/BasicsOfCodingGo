@@ -1,15 +1,16 @@
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
 
-
-_______________________________________________________________________________
+___
 # Running our program prints the sorted string and int
 # slices and `true` as the result of our `AreSorted` test.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run sorting.go
 
-_______________________________________________________________________________
+
 Results:
 
 Strings: [a b c]

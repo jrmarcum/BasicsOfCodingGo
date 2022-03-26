@@ -1,24 +1,24 @@
-
-
-_______________________________________________________________________________
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
+___
 #  If you run `exit.go` using `go run`, the exit
 # will be picked up by `go` and printed.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run exit.go
 
-_______________________________________________________________________________
+
 Results:
 
 exit status 3
 
-_______________________________________________________________________________
+___
 # By building and executing a binary you can see
 # the status in the terminal.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go build exit.go
@@ -27,12 +27,12 @@ $ ./exit
 
 $ echo $?
 
-_______________________________________________________________________________
+
 Results:
 
 3
 
-_______________________________________________________________________________
+___
 # Note that the `!` from our program never got printed.
 
 ___

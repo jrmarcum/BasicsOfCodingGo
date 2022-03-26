@@ -1,16 +1,17 @@
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
 
-
-_______________________________________________________________________________
+___
 # The string encodes to slightly different values with the
 # standard and URL base64 encoders (trailing `+` vs `-`)
 # but they both decode to the original string as desired.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run base64-encoding.go
 
-_______________________________________________________________________________
+
 Results:
 
 YWJjMTIzIT8kKiYoKSctPUB+

@@ -1,11 +1,12 @@
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
 
-
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run time-formatting-parsing.go
 
-_______________________________________________________________________________
+
 Results (Example below: dates and times will vary with machine and runtime):
  
 2014-04-15T18:00:15-07:00

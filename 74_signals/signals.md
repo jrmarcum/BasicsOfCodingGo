@@ -1,26 +1,27 @@
 
-
-_______________________________________________________________________________
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
+___
 # When we run this program it will block waiting for a
 # signal. By typing `ctrl-C` (which the
 # terminal shows as `^C`) we can send a `SIGINT` signal,
 # causing the program to print `interrupt` and then exit.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run signals.go
 
-_______________________________________________________________________________
+
 Results:
 
 awaiting signal
 
-_______________________________________________________________________________
+___
 Run Command:
 $ Ctrl+C
 
-_______________________________________________________________________________
+
 Results:
 
 interrupt

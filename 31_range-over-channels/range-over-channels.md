@@ -1,17 +1,18 @@
 
-
-_______________________________________________________________________________
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
+___
 Run Command:
 
 $ go run range-over-channels.go
 
-_______________________________________________________________________________
+___
 Results:
 
 one
 two
 
-_______________________________________________________________________________
+___
 # This example also showed that it's possible to close
 # a non-empty channel but still have the remaining
 # values be received.

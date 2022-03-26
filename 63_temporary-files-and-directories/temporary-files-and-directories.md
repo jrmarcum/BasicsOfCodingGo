@@ -1,11 +1,12 @@
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
 
-
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run temporary-files-and-directories.go
 
-_______________________________________________________________________________
+
 Results (Example below: results will vary per run):
 
 Creates a Temp file name: .../Temp/sample...

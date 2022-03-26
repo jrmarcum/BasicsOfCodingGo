@@ -1,16 +1,16 @@
-
-
-_______________________________________________________________________________
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
+___
 # `zeroval` doesn't change the `i` in `main`, but
 # `zeroptr` does because it has a reference to
 # the memory address for that variable.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run pointers.go
 
-_______________________________________________________________________________
+
 Results (pointer will vary per run):
 
 initial: 1

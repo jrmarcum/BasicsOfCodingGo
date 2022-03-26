@@ -1,11 +1,12 @@
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
 
-
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run waitgroups.go
 
-_______________________________________________________________________________
+
 Results (Example below: Worker order will vary per run):
 
 Worker 5 starting
@@ -19,7 +20,7 @@ Worker 2 done
 Worker 5 done
 Worker 3 done
 
-_______________________________________________________________________________
+___
 # The order of workers starting up and finishing
 # is likely to be different for each invocation.
 

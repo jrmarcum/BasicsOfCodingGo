@@ -1,17 +1,18 @@
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
 
-
-_______________________________________________________________________________
+___
 # To experiment with command-line arguments it's best to
 # build a binary with `go build` first.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go build command-line-arguments.go
 
 $ ./command-line-arguments a b c d
 
-_______________________________________________________________________________
+
 Results:
 
 [./command-line-arguments a b c d]       

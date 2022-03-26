@@ -1,21 +1,22 @@
 
-
-_______________________________________________________________________________
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
+___
 # We receive the values `"one"` and then `"two"` as
 # expected.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ time go run select.go
 
-_______________________________________________________________________________
+
 Results:
 
 received one
 received two
 
-_______________________________________________________________________________
+___
 # Note that the total execution time is only ~2 seconds
 # since both the 1 and 2 second `Sleeps` execute
 # concurrently. real	0m2.245s

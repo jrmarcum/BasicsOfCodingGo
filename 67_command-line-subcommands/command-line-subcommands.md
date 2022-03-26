@@ -1,19 +1,20 @@
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
 
-
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go build command-line-subcommands.go
 
-_______________________________________________________________________________
+___
 # First invoke the foo subcommand.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ ./command-line-subcommands foo -enable -name=joe a1 a2
 
-_______________________________________________________________________________
+
 Results:
 
 subcommand 'foo'
@@ -21,30 +22,30 @@ subcommand 'foo'
   name: joe
   tail: [a1 a2]
 
-_______________________________________________________________________________
+___
 # Now try bar.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ ./command-line-subcommands bar -level 8 a1
 
-_______________________________________________________________________________
+
 Results:
 
 subcommand 'bar'
   level: 8
   tail: [a1]
 
-_______________________________________________________________________________
+___
 # But bar won't accept foo's flags.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ ./command-line-subcommands bar -enable a1
 
-_______________________________________________________________________________
+
 Results:
 
 flag provided but not defined: -enable

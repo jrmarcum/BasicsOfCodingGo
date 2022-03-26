@@ -1,17 +1,17 @@
-
-
-_______________________________________________________________________________
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
+___
 Run Command:
 
 $ go run functions.go
 
-_______________________________________________________________________________
+
 Results:
 
 1+2 = 3
 1+2+3 = 6
 
-_______________________________________________________________________________
+___
 # There are several other features to Go functions. One is
 # multiple return values, which we'll look at next.
 

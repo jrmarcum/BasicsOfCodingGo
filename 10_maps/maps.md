@@ -1,15 +1,16 @@
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
 
-
-_______________________________________________________________________________
+___
 # Note that maps appear in the form `map[k:v k:v]` when
 # printed with `fmt.Println`.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run maps.go
 
-_______________________________________________________________________________
+
 Results:
 
 map: map[k1:7 k2:13]

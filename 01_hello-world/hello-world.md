@@ -21,7 +21,7 @@ ___
 
 `hello-world.exe (or hello-world)`
 `hello-world.go`
-`hello-worl.md`
+`hello-world.md`
 ___
 #### We can then execute the built binary directly.
 

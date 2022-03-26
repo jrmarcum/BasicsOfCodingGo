@@ -1,21 +1,22 @@
 
-
-_______________________________________________________________________________
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
+___
 # When we run the program the `"ping"` message is
 # successfully passed from one goroutine to another via
 # our channel.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run channels.go
 
-_______________________________________________________________________________
+
 Results:
 
 ping
 
-_______________________________________________________________________________
+___
 # By default sends and receives block until both the
 # sender and receiver are ready. This property allowed
 # us to wait at the end of our program for the `"ping"`

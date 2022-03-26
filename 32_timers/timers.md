@@ -1,16 +1,17 @@
 
-
-_______________________________________________________________________________
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
+___
 // The first timer will fire ~2s after we start the
 // program, but the second should be stopped before it has
 // a chance to fire.
 
-_______________________________________________________________________________
+v
 Run Command:
 
 $ go run timers.go
 
-_______________________________________________________________________________
+
 Results:
 
 Timer 1 fired

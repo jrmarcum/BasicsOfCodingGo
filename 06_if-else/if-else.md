@@ -1,18 +1,19 @@
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
 
-
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run if-else.go
 
-_______________________________________________________________________________
+
 Results:
 
 7 is odd
 8 is divisible by 4
 9 has 1 digit
 
-_______________________________________________________________________________
+___
 # There is no [ternary if](http://en.wikipedia.org/wiki/%3F:)
 # in Go, so you'll need to use a full `if` statement even
 # for basic conditions.

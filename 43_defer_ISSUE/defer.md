@@ -1,15 +1,16 @@
 
-
-_______________________________________________________________________________
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
+___
 # Running the program confirms that the file is closed
 # after being written.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run defer.go
 
-_______________________________________________________________________________
+
 Results:
 
 creating

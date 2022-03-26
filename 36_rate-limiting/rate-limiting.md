@@ -1,15 +1,16 @@
 
-
-_______________________________________________________________________________
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
+___
 # Running our program we see the first batch of requests handled once every
 # ~200 milliseconds as desired.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run rate-limiting.go
 
-_______________________________________________________________________________
+
 Results (Example below: The actual result will be relative to the
 current date, time and time zone of your machine at the time of run):
 
@@ -19,12 +20,12 @@ request 3 2012-10-19 00:38:19.087238 +0000 UTC
 request 4 2012-10-19 00:38:19.287338 +0000 UTC
 request 5 2012-10-19 00:38:19.487331 +0000 UTC
 
-_______________________________________________________________________________
+___
 # For the second batch of requests we serve the first 3 immediately because of
 # the burstable rate limiting, then serve the remaining 2 with ~200ms delays
 # each.
 
-_______________________________________________________________________________
+___
 Results (Example below: The actual result will be relative to the
 current date, time and time zone of your machine at the time of run):
 

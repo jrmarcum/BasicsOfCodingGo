@@ -1,15 +1,16 @@
 
-
-_______________________________________________________________________________
+___
+#### To run the program, make sure you are in the program's folder, then use the Run Command below.
+___
 # Running our URL parsing program shows all the different
 # pieces that we extracted.
 
-_______________________________________________________________________________
+___
 Run Command:
 
 $ go run url-parsing.go
 
-_______________________________________________________________________________
+
 Results:
  
 postgres
