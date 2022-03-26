@@ -5,9 +5,9 @@ ___
 ___
 ##### Run Command:
 
-`$ echo "hello" > dat.txt`
+`$ echo "hello" > ./tmp/dat.txt`
 
-`$ echo "go" >>   dat.txt`
+`$ echo "go" >> ./tmp/dat.txt`
 
 ___
 ##### Run Command:
