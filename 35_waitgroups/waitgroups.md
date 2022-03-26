@@ -17,6 +17,8 @@ Worker 1 done
 Worker 2 done
 Worker 5 done
 Worker 3 done
+
+(Note: Worker start and done may be out of order depending on the speed of each one.)
 ```
 ___
 #### The order of workers starting up and finishing is likely to be different for each invocation.

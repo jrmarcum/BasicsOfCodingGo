@@ -34,14 +34,14 @@ func main() {
 
 	// Perhaps the most basic file reading task is
 	// slurping a file's entire contents into memory.
-	dat, err := ioutil.ReadFile("dat.txt")	// added a local file location and file extension to work on all platforms
+	dat, err := ioutil.ReadFile("../tmp/dat.txt")	// added a local file location and file extension to work on all platforms
 	check(err)
 	fmt.Print(string(dat))
 
 	// You'll often want more control over how and what
 	// parts of a file are read. For these tasks, start
 	// by `Open`ing a file to obtain an `os.File` value.
-	f, err := os.Open("dat.txt")	// added a local file location and file extension to work on all platforms
+	f, err := os.Open("../tmp/dat.txt")	// added a local file location and file extension to work on all platforms
 	check(err)
 
 	// Read some bytes from the beginning of the file.
