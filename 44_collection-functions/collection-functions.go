@@ -4,8 +4,7 @@
 // collection with a custom function.
 
 // In some languages it's idiomatic to use
-// [generic](http://en.wikipedia.org/wiki/Generic_programming)
-// data structures and algorithms. Go does not support
+// generic data structures and algorithms. Go does not support
 // generics; in V it's common to provide collection
 // functions if and when they are specifically needed for
 // your program and data types.
