@@ -1,5 +1,5 @@
-// Go has various variable types. Here are the basic types available.
-/*
+/* Go has various variable types. Here are the basic types available.
+
 Invalid: {Invalid, 0, "invalid type"},
 
 Bool:          {Bool, IsBoolean, "bool"},
