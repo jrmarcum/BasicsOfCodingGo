@@ -3,7 +3,7 @@ ___
 ___
 ##### Run Command:
 
-`$ v run epoch.v`
+`$ go run epoch.go`
 
 ##### Results (Example below: dates and times will vary with machine and runtime):
 ```

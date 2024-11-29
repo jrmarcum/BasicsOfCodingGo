@@ -3,7 +3,7 @@ ___
 ___
 ##### Run Command:
 
-`$ v run xml.v`
+`$ go run xml.go`
 
 ##### Results:
 

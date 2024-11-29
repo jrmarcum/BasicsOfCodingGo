@@ -3,7 +3,7 @@ ___
 ___
 ##### Run Command:
 
-`$ v run string-functions.v`
+`$ go run string-functions.go`
 
 ##### Results:
 ```

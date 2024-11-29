@@ -16,7 +16,8 @@ func main() {
 	var b, c int = 1, 2
 	fmt.Println(b, c)
 
-	// Go will infer the type of initialized variables.
+	// Go will infer the type of initialized variables
+	// if not explicitely defined.
 	var d = true
 	fmt.Println(d)
 
@@ -26,9 +27,10 @@ func main() {
 	var e int
 	fmt.Println(e)
 
-	// The `:=` syntax is shorthand for declaring and
-	// initializing a variable, e.g. for
-	// `var f string = "apple"` in this case.
+	// In Go the `:=` syntax is shorthand for declaring
+	// and initializing a variable, e.g. for
+	// `var f = "apple"` in this case. Go further
+	// infers `var f string = "apple"`
 	f := "apple"
 	fmt.Println(f)
 }

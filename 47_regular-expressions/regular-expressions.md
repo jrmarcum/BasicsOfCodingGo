@@ -3,7 +3,7 @@ ___
 ____
 ##### Run Command:
 
-`$ v run regular-expressions.v`
+`$ go run regular-expressions.go`
 
 ##### Results:
 ```

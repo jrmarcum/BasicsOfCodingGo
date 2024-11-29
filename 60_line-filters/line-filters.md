@@ -5,9 +5,9 @@ ___
 ___
 ##### Run Command:
 
-$ echo 'hello'   > ./tmp/lines.txt
+`$ echo 'hello'   > ./tmp/lines.txt`
 
-$ echo 'filter' >> ./tmp/lines.txt
+`$ echo 'filter' >> ./tmp/lines.txt`
 
 ___
 #### Then use the line filter to get uppercase lines.

@@ -3,7 +3,7 @@ ___
 ___
 ##### Run Command:
 
-`$ v run json.v`
+`$ go run json.go`
 
 ##### Results:
 ```

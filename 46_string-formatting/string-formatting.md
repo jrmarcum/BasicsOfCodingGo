@@ -3,7 +3,7 @@ ___
 ___
 ##### Run Command:
 
-`$ v run string-formatting.v`
+`$ go run string-formatting.go`
 
 ##### Results:
 ```

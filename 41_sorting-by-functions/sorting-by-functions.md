@@ -7,7 +7,7 @@ ___
 
 `$ go run sorting-by-functions.go`
 
-##### Results:
+##### Result:
 
 `[kiwi peach banana]`
 
