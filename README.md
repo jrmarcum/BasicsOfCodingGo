@@ -7,7 +7,8 @@ The programs are intended to be run in the terminal as that is common to most op
 To setup Go for use, nativagate to the golang website and download the appropriate installer for your operating system. The install and follow the directions on how to perform further settings for use. If the language has been installed properly you will be able to type the following command in the terminal command line and receive the response shown:
 ```
 $ go version
-go version 1.23.3 windows/amd64       (Note: the version shown here varies with your installed version, and the os and cpu will match your os and cpu type)
+go version 1.23.3 windows/amd64
+(Note: the version shown here varies with your installed version, and the os and cpu will match your os and cpu type)
 ```
 ## Statements
 A statement is an instruction that a program can execute. They are usually made line by line in your coding file. Lines in your code can have multiple statements that are separated typically by semicolons.
