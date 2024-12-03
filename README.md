@@ -10,8 +10,6 @@ $ go version
 go version 1.23.3 windows/amd64
 (Note: the version shown here varies with your installed version, and the os and cpu will match your os and cpu type)
 ```
-## Statements
-A statement is an instruction that a program can execute. They are usually made line by line in your coding file. Lines in your code can have multiple statements that are separated typically by semicolons.
 ## Comments
 Comments are used to document what your code does so that others can understand it when reviewing your code. Comments also document items that are non-performant in order to debug the code items at a later date.
 ## Keywords
@@ -22,20 +20,50 @@ interface  map       package    range          return
 select     struct    switch     type           var
 ## Operators
 > ### 1. Arithmetic Operators
->> a. **+**: add numbers
+>> a. **+** : add numbers together
 >>
->> b. **-**: subtract numbers
+>> b. **-** : subtract one number from another number
 >>
->> c. **/**: divide one number by another
+>> c. **\*** : multiply one number by another number
 >>
->> d. **%**: remainder of dividing one number by another
+>> d. **/** : divide one number by another number
 >>
->> e.
-> ### 2. Assignment Operators
-> ### 3. Comparison Operators
-> ### 4. Logical Operators
+>> d. **%** : remainder of dividing one number by another number
+>>
+>> e. **++** : increase the value of a variable by 1
+>>
+>> f. **--** : decrease the value of a variable by 1
+> ### 2. Comparison Operators
+>> a. **==** : check if a variable is equal to another
+>>
+>> b. **!=** : check if a variable is not equal to another
+>>
+>> c. **>** : check if a varaible is greater than another
+>>
+>> d. **<** : check if a variable is less than another
+>>
+>> e. **>=** : check if a variable is greater than or equal to another
+>>
+>> f. **<=** : check if a variable is less than or equal to another
+> ### 3. Logical Operators
+>> a. **&&** : returns true if both statements are true
+>>
+>> b. **||** : returns true if one of the statements are true
+>>
+>> c. **!** : reverse the result of a true or false statement
+> ### 5. Assignment Operators
+>> a. **=** : assign a data type to a variable
+>>
+>> b. **+=** : add a number to the existing value of a variable and assign the result to variable
+>>
+>> c. **-=** : subtract a number to the existing value of a variable and assign the result to variable
+>>
+>> d. **\*=** : multuply a number to the existing value of a variable and assign the result to variable
+>>
+>> e. **/=** : divide the existing value of a variable by a number and assign the result to variable
+>>
+>> f. **%=** : take the remainder of the existing value of a variable divided by a number and assign the result to variable
 ## Data Types
-
 > ### 1.  Variables
 >> a.  **String, string, str**: used for storing text and/or characters
 >> 
@@ -103,33 +131,28 @@ select     struct    switch     type           var
 > ### 5. **Dictionaries**
 > ### 6. **Sets**
 > ### 7. **Frozen Set**
-## Command Line Input and Output
-> ### 1. Command Line Input: program input from the user entered from the command line interface (CLI)
->> a. Input casting: type casting of input variables for the purpose of processing the data with the appropriate data type
->> b. Handling Errors from incorrect input types: Errors will occur from time to time when the data provided by the user is in the incorrect data type for the program to process the data. When errors occur the program will need instruction on what to do in that instance. Otherwise it will terminate with a warning or an error.
-> ### 2. Command Line Output: command line output will be in the form of numbers, strings, booleans and characters produced by a output keyword such as print, println, PrintLn!, console.log(), ConsoleWriteLine(), etc.
->> a. String Formatting: strings can be formatted to produce a specific output format based upon numbers, strings, booleans and their presentation types
 ## Functions
 > ### 1. **Range**: Data range function typically using in for loops
 > ### 2. **Date and Time**: produces the date and time in a specified format
-## Conditional Statements
-> ### 1. **if**: performs a statement 'if' a condition is met
-> ### 2. **if-else**: performs a statement 'if' a condition is met and if not (ie. 'else') performs the default statement
-> ### 3. **if-else**: performs a statement 'if' a condition is met and if not, performs a statement 'else if' a condition is met and if not (ie. 'else') performs the default statement
-## Iterative Statements
-> ###  1. **for**: loop statement over a defined range of predetermined variables or values
-> ###  2. **for-in, for-each, for-of**: loop statement over each element in an array
-> ###  4. **while**: indefinite loop that is terminated while a condition is true
-> ###  5. **while-let**: while let destructures a variable into another variable perform a block of code else break
-> ###  6. **if-let**: if let destructures a variable into another variable perform a block of code
-> ###  6. **do, do-while, do-until, do-loop-while, do-loop-until, repeat-while, repeat-until, repeat-if**: repeats a bock of code while a boolean condition is true or until the condition becomes true
-> ### 10. **loop**: indefinite loop that requires a break statement to terminate the loop
-## Transfer Statements
-> ### 1. **break**: terminates a statement at the point of call
-> ### 2. **continue**: continues to the next loop increment
-> ### 3. **pass**: it is a null statement used to pass the statement flow on to the next statement in a function or class in which we have not determined the correct code to put in it yet
-> ### 4. **goto**: sends the control flow to a specific statement
-> ### 5. **fallthrough**: in swift this statement forces the program to check each case and not stop at the first valid case
+## Statements
+A statement is an instruction that a program can execute. They are usually made line by line in your coding file. Lines in your code can have multiple statements that are separated typically by semicolons.
+> ### Conditional Statements
+>> #### 2. **if-else**: performs a statement 'if' a condition is met and if not (ie. 'else') performs the default statement
+>> #### 3. **if-else**: performs a statement 'if' a condition is met and if not, performs a statement 'else if' a condition is met and if not (ie. 'else') performs the default statement
+> ### Iterative Statements
+>> ####  1. **for**: loop statement over a defined range of predetermined variables or values
+>> ####  2. **for-in, for-each, for-of**: loop statement over each element in an array
+>> ####  4. **while**: indefinite loop that is terminated while a condition is true
+>> ####  5. **while-let**: while let destructures a variable into another variable perform a block of code else break
+>> ####  6. **if-let**: if let destructures a variable into another variable perform a block of code
+> ####  6. **do, do-while, do-until, do-loop-while, do-loop-until, repeat-while, repeat-until, repeat-if**: repeats a bock of code while a boolean condition is true or until the condition becomes true
+>> #### 7. **loop**: indefinite loop that requires a break statement to terminate the loop
+> ### Transfer Statements
+>> ### 1. **break**: terminates a statement at the point of call
+>> ### 2. **continue**: continues to the next loop increment
+>> ### 3. **pass**: it is a null statement used to pass the statement flow on to the next statement in a function or class in which we have not determined the correct code to put in it yet
+>> ### 4. **goto**: sends the control flow to a specific statement
+>> ### 5. **fallthrough**: in swift this statement forces the program to check each case and not stop at the first valid case
 ## File Input and Output
 > ### 1. File Input
 >> a. Input casting.
