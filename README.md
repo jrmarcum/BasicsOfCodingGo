@@ -15,6 +15,11 @@ A statement is an instruction that a program can execute. They are usually made 
 ## Comments
 Comments are used to document what your code does so that others can understand it when reviewing your code. Comments also document items that are non-performant in order to debug the code items at a later date.
 ## Keywords
+break      case      chan       const          continue
+default    defer     else       fallthrough    for
+func       go        goto       if             import
+interface  map       package    range          return
+select     struct    switch     type           var
 ## Operators
 > ### 1. Arithmetic Operators
 >> a. **+**: add numbers
@@ -25,7 +30,10 @@ Comments are used to document what your code does so that others can understand 
 >>
 >> d. **%**: remainder of dividing one number by another
 >>
->> e. 
+>> e.
+> ### 2. Assignment Operators
+> ### 3. Comparison Operators
+> ### 4. Logical Operators
 ## Data Types
 
 > ### 1.  Variables
