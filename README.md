@@ -20,49 +20,49 @@ interface  map       package    range          return
 select     struct    switch     type           var
 ## Operators
 > ### 1. Arithmetic Operators
->> a. **+** : add numbers together
+>> a.  **+** : add one numbers to another number
 >>
->> b. **-** : subtract one number from another number
+>> b.  **-** : subtract one number from another number
 >>
->> c. **\*** : multiply one number by another number
+>> c.  **\*** : multiply one number by another number
 >>
->> d. **/** : divide one number by another number
+>> d.  **/** : divide one number by another number
 >>
->> d. **%** : remainder of dividing one number by another number
+>> d.  **%** : remainder of dividing one number by another number
 >>
->> e. **++** : increase the value of a variable by 1
+>> e.  **++** : increase the value of a variable by 1
 >>
->> f. **--** : decrease the value of a variable by 1
+>> f.  **--** : decrease the value of a variable by 1
 > ### 2. Comparison Operators
->> a. **==** : check if a variable is equal to another
+>> a.  **==** : check if a variable is equal to another
 >>
->> b. **!=** : check if a variable is not equal to another
+>> b.  **!=** : check if a variable is not equal to another
 >>
->> c. **>** : check if a varaible is greater than another
+>> c.  **>** : check if a varaible is greater than another
 >>
->> d. **<** : check if a variable is less than another
+>> d.  **<** : check if a variable is less than another
 >>
->> e. **>=** : check if a variable is greater than or equal to another
+>> e.  **>=** : check if a variable is greater than or equal to another
 >>
->> f. **<=** : check if a variable is less than or equal to another
+>> f.  **<=** : check if a variable is less than or equal to another
 > ### 3. Logical Operators
->> a. **&&** : returns true if both statements are true
+>> a.  **&&** : returns true if both statements are true
 >>
->> b. **||** : returns true if one of the statements are true
+>> b.  **||** : returns true if one of the statements are true
 >>
->> c. **!** : reverse the result of a true or false statement
+>> c.  **!** : reverse the result of a true or false statement
 > ### 5. Assignment Operators
->> a. **=** : assign a data type to a variable
+>> a.  **=** : assign a data type to a variable
 >>
->> b. **+=** : add a number to the existing value of a variable and assign the result to variable
+>> b.  **+=** : add a number to the existing value of a variable and assign the result to variable
 >>
->> c. **-=** : subtract a number to the existing value of a variable and assign the result to variable
+>> c.  **-=** : subtract a number to the existing value of a variable and assign the result to variable
 >>
->> d. **\*=** : multuply a number to the existing value of a variable and assign the result to variable
+>> d.  **\*=** : multuply a number to the existing value of a variable and assign the result to variable
 >>
->> e. **/=** : divide the existing value of a variable by a number and assign the result to variable
+>> e.  **/=** : divide the existing value of a variable by a number and assign the result to variable
 >>
->> f. **%=** : take the remainder of the existing value of a variable divided by a number and assign the result to variable
+>> f.  **%=** : take the remainder of the existing value of a variable divided by a number and assign the result to variable
 ## Data Types
 > ### 1.  Variables
 >> a.  **String, string, str**: used for storing text and/or characters
@@ -75,23 +75,23 @@ select     struct    switch     type           var
 >> 
 >> e.  **Numbers**
 >>
->>>  1.  *Number, number, numeric*: stores numeric data with or without decimal
+>>> 1.  *Number, number, numeric*: stores numeric data with or without decimal
 >>>
->>>  2.  *Int8, int8, i8,sbyte*: stores positive or negative integers from -2^7 to (2^7)-1, with 3 significant figure precision
+>>> 2.  *Int8, int8, i8,sbyte*: stores positive or negative integers from -2^7 to (2^7)-1, with 3 significant figure precision
 >>>
->>>  3.  *Int16, int16, i16, Short, short*: stores positive or negative integers from -2^15 to (2^15)-1, with 5 significant figure precision
+>>> 3.  *Int16, int16, i16, Short, short*: stores positive or negative integers from -2^15 to (2^15)-1, with 5 significant figure precision
 >>>
->>>  4.  *Int32, int32, i32, Int, int, Integer, integer*: stores positive or negative integers from -2^31 to (2^31)-1, with 10 significant figure precision
+>>> 4.  *Int32, int32, i32, Int, int, Integer, integer*: stores positive or negative integers from -2^31 to (2^31)-1, with 10 significant figure precision
 >>>
->>>  5.  *Int64, int64, i64, bigint, Long, long*: stores positive or negative integers from -2^63 to (2^63)-1, with 19 significant figure precision
+>>> 5.  *Int64, int64, i64, bigint, Long, long*: stores positive or negative integers from -2^63 to (2^63)-1, with 19 significant figure precision
 >>>
->>>  6.  *Int128, i128*: stores positive or negative integers from -2^127 to (2^127)-1, with 39 significant figure precision
+>>> 6.  *Int128, i128*: stores positive or negative integers from -2^127 to (2^127)-1, with 39 significant figure precision
 >>>
->>>  7.  *isize*: same as i32 or i64 depending on computer architecture
+>>> 7.  *isize*: same as i32 or i64 depending on computer architecture
 >>>
->>>  8.  *UInt8, unint8, u8, ubyte, Byte, byte, bytes*: stores positive integers from 0 to (2^8)-1, with 3 significant figure precision
+>>> 8.  UInt8, unint8, u8, ubyte, Byte, byte, bytes*: stores positive integers from 0 to (2^8)-1, with 3 significant figure precision
 >>>
->>>  9.  *UInt16, unint16, u16, ushort*: stores positive integers from 0 to (2^16)-1, with 5 significant figure precision
+>>> 9.  *UInt16, unint16, u16, ushort*: stores positive integers from 0 to (2^16)-1, with 5 significant figure precision
 >>>
 >>> 10.  *UInt32, uint32, unint32, u32, uint*: stores positive integers from 0 to (2^32)-1, with 10 significant figure precision
 >>>
