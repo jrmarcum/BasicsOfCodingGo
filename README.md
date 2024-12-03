@@ -122,8 +122,6 @@ Comments are used to document what your code does so that others can understand 
 > ### 3. **pass**: it is a null statement used to pass the statement flow on to the next statement in a function or class in which we have not determined the correct code to put in it yet
 > ### 4. **goto**: sends the control flow to a specific statement
 > ### 5. **fallthrough**: in swift this statement forces the program to check each case and not stop at the first valid case
-## Classes
-## Modules
 ## File Input and Output
 > ### 1. File Input
 >> a. Input casting.
