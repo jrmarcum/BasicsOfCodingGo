@@ -18,6 +18,8 @@ default    defer     else       fallthrough    for
 func       go        goto       if             import
 interface  map       package    range          return
 select     struct    switch     type           var
+## Identifiers
+
 ## Operators
 > ###  1. Arithmetic Operators
 >> #### a.  **+** : add one numbers to another number
@@ -124,13 +126,14 @@ select     struct    switch     type           var
 >>> ##### 24)  *idouble*: imaginary value type of double
 >>>
 >>> ##### 25)  *ireal*: imaginary value type of real
-> ###  2. **Boolean, boolean, Bool, bool, Logical, logical**: values of True, true, False, false or None
-> ###  3. **Lists**
-> ###  4. **Arrays**      
-> ###  5. **Tuples**
-> ###  6. **Dictionaries**
-> ###  7. **Sets**
-> ###  8. **Frozen Set**
+> ###  2. **Constants** : 
+> ###  3. **Boolean, boolean, Bool, bool, Logical, logical**: values of True, true, False, false or None
+> ###  4. **Lists**
+> ###  5. **Arrays**      
+> ###  6. **Tuples**
+> ###  7. **Dictionaries**
+> ###  8. **Sets**
+> ###  9. **Frozen Set**
 ## Functions
 > ###  1. **Range**: Data range function typically using in for loops
 > ###  2. **Date and Time**: produces the date and time in a specified format
@@ -153,6 +156,9 @@ A statement is an instruction that a program can execute. They are usually made 
 >> ###  3. **pass**: it is a null statement used to pass the statement flow on to the next statement in a function or class in which we have not determined the correct code to put in it yet
 >> ###  4. **goto**: sends the control flow to a specific statement
 >> ###  5. **fallthrough**: in swift this statement forces the program to check each case and not stop at the first valid case
+> ### Switch Statements
+>> #### 1. Express Switch Statement: uses an evaluated expression to brach to a case that matches the result of the evaluated expression
+>> #### 2. Type Swithch Statement: uses the type of a variable to branch to a case that matches the variables type
 ## File Input and Output
 > ###  1. File Input
 >> #### a. Input casting.
