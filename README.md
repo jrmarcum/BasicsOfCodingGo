@@ -23,7 +23,7 @@ Comments are used to document what your code does so that others can understand 
 ## Identifiers
 
 ## Operators
-> ###  1. Arithmetic Operators
+> ### Arithmetic Operators
 > |        |                                                    |
 > |:------:|:---------------------------------------------------|
 > | **+**  | add one number to another number                   |
@@ -33,7 +33,7 @@ Comments are used to document what your code does so that others can understand 
 > | **%**  | remainder of dividing one number by another number |
 > | **++** | increase the value of a variable by 1              |
 > | **--** | decrease the value of a variable by 1              |
-> ###  2. Comparison Operators
+> ### Comparison Operators
 > |        |                                                         |
 > |:------:|:--------------------------------------------------------|
 > | **==** | check if a variable is equal to another                 |
@@ -42,13 +42,13 @@ Comments are used to document what your code does so that others can understand 
 > | **<**  | check if a variable is less than another                |
 > | **>=** | check if a variable is greater than or equal to another |
 > | **<=** | check if a variable is less than or equal to another    |
-> ###  3. Logical Operators
+> ### Logical Operators
 > |        |                                                 |
 > |:------:|:------------------------------------------------|
 > | **&&** | returns true if both statements are true        |
 > | **\|\|** | returns true if one of the statements are true  |
 > | **!**  | reverse the result of a true or false statement |
-> ###  4. Assignment Operators
+> ### Assignment Operators
 > |         |                                                                                                              |
 > |:-------:|:-------------------------------------------------------------------------------------------------------------|
 > | **=**   | assign a data type to a variable                                                                             |
@@ -132,10 +132,10 @@ Comments are used to document what your code does so that others can understand 
 ## Statements
 A statement is an instruction that a program can execute. They are usually made line by line in your coding file. Lines in your code can have multiple statements that are separated typically by semicolons.
 > ### Conditional Statements
-> |             |                                                                                                                                                         |
-> |:-----------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------|
-> | **if-else** | performs a statement 'if' a condition is met and if not (ie. 'else') performs the default statement                                                     |
-> | **if-else** | performs a statement 'if' a condition is met and if not, performs a statement 'else if' a condition is met and if not (ie. 'else') performs the default | statement
+> |              |                                                                                                                                                         |
+> |:------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------|
+> | **if-else**  | performs a statement 'if' a condition is met and if not (ie. 'else') performs the default statement                                                     |
+> | **if-else**  | performs a statement 'if' a condition is met and if not, performs a statement 'else if' a condition is met and if not (ie. 'else') performs the default | statement
 > ### Iterative Statements
 > |                   |                                                                                              |
 > |:-----------------:|:---------------------------------------------------------------------------------------------|
