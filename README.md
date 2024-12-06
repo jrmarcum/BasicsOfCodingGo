@@ -1,6 +1,6 @@
 # Basics of Coding Go
 ## Preface
-What this text is and what it is not: This text is intended to introduce the reader to the basics of the Go programming language in the sense that they will be able to write minimal types of programs and run the code. It is not intended to go into advanced topics like concurrency and use of pointers, data structures, object oriented programming, testing and debugging techniques and other software engineering principals.
+What this text is and what it is not: This text is intended to introduce the reader to the basics of the Go programming language in the sense that they will be able to write minimal types of programs and run the code. It is not intended to go into advanced topics like concurrency and use of pointers, advanced data structures, object oriented programming, testing and debugging techniques and other software engineering principals.
 
 The programs are intended to be run in the terminal as that is common to most operating systems. Linux and Mac come preinstalled with a terminal. Windows may or may not have it pre-installed. "Windows Terminal" can be installed from the Microsoft store. Just do a search for it and install it.
 ## Installation and Setup of Go
@@ -132,25 +132,42 @@ Comments are used to document what your code does so that others can understand 
 ## Statements
 A statement is an instruction that a program can execute. They are usually made line by line in your coding file. Lines in your code can have multiple statements that are separated typically by semicolons.
 > ### Conditional Statements
->> ####  1. **if-else**: performs a statement 'if' a condition is met and if not (ie. 'else') performs the default statement
->> ####  2. **if-else**: performs a statement 'if' a condition is met and if not, performs a statement 'else if' a condition is met and if not (ie. 'else') performs the default statement
+> |             |                                                                                                                                                         |
+> |:-----------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------|
+> | **if-else** | performs a statement 'if' a condition is met and if not (ie. 'else') performs the default statement                                                     |
+> | **if-else** | performs a statement 'if' a condition is met and if not, performs a statement 'else if' a condition is met and if not (ie. 'else') performs the default | statement
 > ### Iterative Statements
->> ####  1. **for**: loop statement over a defined range of predetermined variables or values
->> ####  2. **for-in, for-each, for-of**: loop statement over each element in an array
->> ####  3. **while**: indefinite loop that is terminated while a condition is true
->> ####  4. **while-let**: while let destructures a variable into another variable perform a block of code else break
->> ####  5. **if-let**: if let destructures a variable into another variable perform a block of code
->> ####  6. **do, do-while, do-until, do-loop-while, do-loop-until, repeat-while, repeat-until, repeat-if**: repeats a bock of code while a boolean condition is true or until the condition becomes true
->> ####  7. **loop**: indefinite loop that requires a break statement to terminate the loop
+> |                   |                                                                                              |
+> |:-----------------:|:---------------------------------------------------------------------------------------------|
+> | **for**           | loop statement over a defined range of predetermined variables or values                     |
+> | **for-in**        | loop statement over each element in an array                                                 |
+> | **for-each**      | loop statement over each element in an array                                                 |
+> | **for-of**        | loop statement over each element in an array                                                 |
+> | **while**         | indefinite loop that is terminated while a condition is true                                 |
+> | **while-let**     | while let destructures a variable into another variable perform a block of code else break   |
+> | **if-let**        | if let destructures a variable into another variable perform a block of code                 |
+> | **do**            | repeats a bock of code while a boolean condition is true or until the condition becomes true |
+> | **do-while**      | repeats a bock of code while a boolean condition is true or until the condition becomes true |            
+> | **do-until**      | repeats a bock of code while a boolean condition is true or until the condition becomes true |
+> | **do-loop-while** | repeats a bock of code while a boolean condition is true or until the condition becomes true |
+> | **do-loop-until** | repeats a bock of code while a boolean condition is true or until the condition becomes true |
+> | **repeat-while**  | repeats a bock of code while a boolean condition is true or until the condition becomes true |
+> | **repeat-until**  | repeats a bock of code while a boolean condition is true or until the condition becomes true |
+> | **repeat-if**     | repeats a bock of code while a boolean condition is true or until the condition becomes true |
+> | **loop**          | indefinite loop that requires a break statement to terminate the loop                        |
 > ### Transfer Statements
->> ###  1. **break**: terminates a statement at the point of call
->> ###  2. **continue**: continues to the next loop increment
->> ###  3. **pass**: it is a null statement used to pass the statement flow on to the next statement in a function or class in which we have not determined the correct code to put in it yet
->> ###  4. **goto**: sends the control flow to a specific statement
->> ###  5. **fallthrough**: in swift this statement forces the program to check each case and not stop at the first valid case
+> |         |              |
+> |:-------:|:-------------|
+> | **break** | terminates a statement at the point of call |
+> | **continue** | continues to the next loop increment |
+> | **pass** | it is a null statement used to pass the statement flow on to the next statement in a function or class in which we have not determined the correct code to put in it yet |
+> | **goto** | sends the control flow to a specific statement |
+> | **fallthrough** | in swift this statement forces the program to check each case and not stop at the first valid case |
 > ### Switch Statements
->> #### 1. Express Switch Statement: uses an evaluated expression to brach to a case that matches the result of the evaluated expression
->> #### 2. Type Swithch Statement: uses the type of a variable to branch to a case that matches the variables type
+> |                          |                                                                                                     |
+> |:------------------------:|:----------------------------------------------------------------------------------------------------|
+> | Express Switch Statement | uses an evaluated expression to brach to a case that matches the result of the evaluated expression |
+> | Type Switch Statement    | uses the type of a variable to branch to a case that matches the variables type                     |
 ## File Input and Output
 > ###  1. File Input
 >> #### a. Input casting.
