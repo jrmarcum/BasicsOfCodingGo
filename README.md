@@ -13,11 +13,11 @@ go version 1.23.3 windows/amd64
 ## Comments
 Comments are used to document what your code does so that others can understand it when reviewing your code. Comments also document items that are non-performant in order to debug the code items at a later date.
 ## Keywords
-break      case      chan       const          continue
-default    defer     else       fallthrough    for
-func       go        goto       if             import
-interface  map       package    range          return
-select     struct    switch     type           var
+| break     | case     | chan      | const         | continue
+| default   | defer    | else      | fallthrough   | for
+| func      | go       | goto      | if            | import
+| interface | map      | package   | range         | return
+| select    | struct   | switch    | type          | var
 ## Identifiers
 
 ## Operators
