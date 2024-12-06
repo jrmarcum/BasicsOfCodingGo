@@ -164,11 +164,11 @@ A statement is an instruction that a program can execute. They are usually made 
 > |  **goto**          | sends the control flow to a specific statement |
 > |  **fallthrough**   | in swift this statement forces the program to check each case and not stop at the first valid case |
 > ### Switch Statements
->> #### Express Switch Statement: uses an evaluated expression to brach to a case that matches the result of the evaluated expression
+>> #### **Express Switch Statement** : uses an evaluated expression to brach to a case that matches the result of the evaluated expression
 >> |                            |                                                                                                     |
 >> |:--------------------------:|:----------------------------------------------------------------------------------------------------|
 >> |    |  |
->> ####  Type Switch Statement: uses the type of a variable to branch to a case that matches the variables type
+>> ####  **Type Switch Statement** : uses the type of a variable to branch to a case that matches the variables type
 >> |                            |                                                                                                     |
 >> |:--------------------------:|:----------------------------------------------------------------------------------------------------|
 >> |    |  |                     |
