@@ -13,19 +13,19 @@ go version 1.23.3 windows/amd64
 ## Comments
 Comments are used to document what your code does so that others can understand it when reviewing your code. Comments also document items that are non-performant in order to debug the code items at a later date.
 ## Keywords
-|           |          |           |               |          |
-|-----------|----------|-----------|---------------|----------|
-| break     | case     | chan      | const         | continue |
-| default   | defer    | else      | fallthrough   | for      |
-| func      | go       | goto      | if            | import   |
-| interface | map      | package   | range         | return   |
-| select    | struct   | switch    | type          | var      |
+|           |        |         |             |          |
+|:---------:|:------:|:-------:|:-----------:|:--------:|
+| break     | case   | chan    | const       | continue |
+| default   | defer  | else    | fallthrough | for      |
+| func      | go     | goto    | if          | import   |
+| interface | map    | package | range       | return   |
+| select    | struct | switch  | type        | var      |
 ## Identifiers
 
 ## Operators
 > ###  1. Arithmetic Operators
 > |        |                                                    |
-> |--------|----------------------------------------------------|
+> |:------:|:---------------------------------------------------|
 > | **+**  | add one number to another number                   |
 > | **-**  | subtract one number from another number            |
 > | **\***  | multiply one number by another number              |
@@ -35,7 +35,7 @@ Comments are used to document what your code does so that others can understand 
 > | **--** | decrease the value of a variable by 1              |
 > ###  2. Comparison Operators
 > |        |                                                         |
-> |--------|---------------------------------------------------------|
+> |:------:|:--------------------------------------------------------|
 > | **==** | check if a variable is equal to another                 |
 > | **!=** | check if a variable is not equal to another             |
 > | **>**  | check if a varaible is greater than another             |
@@ -44,13 +44,13 @@ Comments are used to document what your code does so that others can understand 
 > | **<=** | check if a variable is less than or equal to another    |
 > ###  3. Logical Operators
 > |        |                                                 |
-> |--------|-------------------------------------------------|
+> |:------:|:------------------------------------------------|
 > | **&&** | returns true if both statements are true        |
 > | **\|\|** | returns true if one of the statements are true  |
 > | **!**  | reverse the result of a true or false statement |
 > ###  4. Assignment Operators
 > |         |                                                                                                              |
-> |---------|--------------------------------------------------------------------------------------------------------------|
+> |:-------:|:-------------------------------------------------------------------------------------------------------------|
 > | **=**   | assign a data type to a variable                                                                             |
 > | **+=**  | add a number to the existing value of a variable and assign the result to variable                           |
 > | **-=**  | subtract a number to the existing value of a variable and assign the result to variable                      |
