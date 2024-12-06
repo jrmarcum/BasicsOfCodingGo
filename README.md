@@ -28,7 +28,7 @@ Comments are used to document what your code does so that others can understand 
 > |:------:|:---------------------------------------------------|
 > | **+**  | add one number to another number                   |
 > | **-**  | subtract one number from another number            |
-> | **\***  | multiply one number by another number             |
+> | **\*** | multiply one number by another number              |
 > | **/**  | divide one number by another number                |
 > | **%**  | remainder of dividing one number by another number |
 > | **++** | increase the value of a variable by 1              |
@@ -43,20 +43,20 @@ Comments are used to document what your code does so that others can understand 
 > | **>=** | check if a variable is greater than or equal to another |
 > | **<=** | check if a variable is less than or equal to another    |
 > ### Logical Operators
-> |            |                                                 |
-> |:----------:|:------------------------------------------------|
-> |  **&&**    | returns true if both statements are true        |
-> |  **\|\|**  | returns true if one of the statements are true  |
-> |  **!**     | reverse the result of a true or false statement |
+> |          |                                                 |
+> |:--------:|:------------------------------------------------|
+> | **&&**   | returns true if both statements are true        |
+> | **\|\|** | returns true if one of the statements are true  |
+> | **!**    | reverse the result of a true or false statement |
 > ### Assignment Operators
-> |           |                                                                                                              |
-> |:---------:|:-------------------------------------------------------------------------------------------------------------|
-> |  **=**    | assign a data type to a variable                                                                             |
-> |  **+=**   | add a number to the existing value of a variable and assign the result to variable                           |
-> |  **-=**   | subtract a number to the existing value of a variable and assign the result to variable                      |
-> |  **\*=**  | multuply a number to the existing value of a variable and assign the result to variable                      |
-> |  **/=**   | divide the existing value of a variable by a number and assign the result to variable                        |
-> |  **%=**   | take the remainder of the existing value of a variable divided by a number and assign the result to variable |
+> |         |                                                                                                              |
+> |:-------:|:-------------------------------------------------------------------------------------------------------------|
+> | **=**   | assign a data type to a variable                                                                             |
+> | **+=**  | add a number to the existing value of a variable and assign the result to variable                           |
+> | **-=**  | subtract a number to the existing value of a variable and assign the result to variable                      |
+> | **\*=** | multuply a number to the existing value of a variable and assign the result to variable                      |
+> | **/=**  | divide the existing value of a variable by a number and assign the result to variable                        |
+> | **%=**  | take the remainder of the existing value of a variable divided by a number and assign the result to variable |
 ## Data Types
   ###  1.  Variables
 >> #### a.  **String, string, str**: used for storing text and/or characters
@@ -132,37 +132,37 @@ Comments are used to document what your code does so that others can understand 
 ## Statements
 A statement is an instruction that a program can execute. They are usually made line by line in your coding file. Lines in your code can have multiple statements that are separated typically by semicolons.
 > ### Conditional Statements
-> |                 |                                                                                                      |
-> |:---------------:|:-----------------------------------------------------------------------------------------------------|
-> |   **if-else**   | performs a statement 'if' a condition is met and if not (ie. 'else') performs the default statement  |
-> |   **if-else**   | performs a statement 'if' a condition is met and if not, performs a statement 'else if' a condition is met and if not (ie. 'else') performs the default statement |
+> |             |                                                                                                     |
+> |:-----------:|:----------------------------------------------------------------------------------------------------|
+> | **if-else** | performs a statement 'if' a condition is met and if not (ie. 'else') performs the default statement |
+> | **if-else** | performs a statement 'if' a condition is met and if not, performs a statement 'else if' a condition is met and if not (ie. 'else') performs the default statement |
 > ### Iterative Statements
-> |                     |                                                                                              |
-> |:-------------------:|:---------------------------------------------------------------------------------------------|
-> |  **for**            | loop statement over a defined range of predetermined variables or values                     |
-> |  **for-in**         | loop statement over each element in an array                                                 |
-> |  **for-each**       | loop statement over each element in an array                                                 |
-> |  **for-of**         | loop statement over each element in an array                                                 |
-> |  **while**          | indefinite loop that is terminated while a condition is true                                 |
-> |  **while-let**      | while let destructures a variable into another variable perform a block of code else break   |
-> |  **if-let**         | if let destructures a variable into another variable perform a block of code                 |
-> |  **do**             | repeats a bock of code while a boolean condition is true or until the condition becomes true |
-> |  **do-while**       | repeats a bock of code while a boolean condition is true or until the condition becomes true |            
-> |  **do-until**       | repeats a bock of code while a boolean condition is true or until the condition becomes true |
-> |  **do-loop-while**  | repeats a bock of code while a boolean condition is true or until the condition becomes true |
-> |  **do-loop-until**  | repeats a bock of code while a boolean condition is true or until the condition becomes true |
-> |  **repeat-while**   | repeats a bock of code while a boolean condition is true or until the condition becomes true |
-> |  **repeat-until**   | repeats a bock of code while a boolean condition is true or until the condition becomes true |
-> |  **repeat-if**      | repeats a bock of code while a boolean condition is true or until the condition becomes true |
-> |  **loop**           | indefinite loop that requires a break statement to terminate the loop                        |
+> |                   |                                                                                              |
+> |:-----------------:|:---------------------------------------------------------------------------------------------|
+> | **for**           | loop statement over a defined range of predetermined variables or values                     |
+> | **for-in**        | loop statement over each element in an array                                                 |
+> | **for-each**      | loop statement over each element in an array                                                 |
+> | **for-of**        | loop statement over each element in an array                                                 |
+> | **while**         | indefinite loop that is terminated while a condition is true                                 |
+> | **while-let**     | while let destructures a variable into another variable perform a block of code else break   |
+> | **if-let**        | if let destructures a variable into another variable perform a block of code                 |
+> | **do**            | repeats a bock of code while a boolean condition is true or until the condition becomes true |
+> | **do-while**      | repeats a bock of code while a boolean condition is true or until the condition becomes true |            
+> | **do-until**      | repeats a bock of code while a boolean condition is true or until the condition becomes true |
+> | **do-loop-while** | repeats a bock of code while a boolean condition is true or until the condition becomes true |
+> | **do-loop-until** | repeats a bock of code while a boolean condition is true or until the condition becomes true |
+> | **repeat-while**  | repeats a bock of code while a boolean condition is true or until the condition becomes true |
+> | **repeat-until**  | repeats a bock of code while a boolean condition is true or until the condition becomes true |
+> | **repeat-if**     | repeats a bock of code while a boolean condition is true or until the condition becomes true |
+> | **loop**          | indefinite loop that requires a break statement to terminate the loop                        |
 > ### Transfer Statements
-> |                    |              |
-> |:------------------:|:-------------|
-> |  **break**         | terminates a statement at the point of call |
-> |  **continue**      | continues to the next loop increment |
-> |  **pass**          | it is a null statement used to pass the statement flow on to the next statement in a function or class in which we have not determined the correct code to put in it yet |
-> |  **goto**          | sends the control flow to a specific statement |
-> |  **fallthrough**   | in swift this statement forces the program to check each case and not stop at the first valid case |
+> |                 |                                             |
+> |:---------------:|:--------------------------------------------|
+> | **break**       | terminates a statement at the point of call |
+> | **continue**    | continues to the next loop increment        |
+> | **pass**        | it is a null statement used to pass the statement flow on to the next statement in a function or class in which we have not determined the correct code to put in it yet |
+> | **goto**        | sends the control flow to a specific statement |
+> | **fallthrough** | in swift this statement forces the program to check each case and not stop at the first valid case |
 > ### Switch Statements
 >> #### **Express Switch Statement** : uses an evaluated expression to brach to a case that matches the result of the evaluated expression
 >> |                            |                                                                                                     |
