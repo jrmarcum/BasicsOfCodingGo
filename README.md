@@ -28,7 +28,7 @@ Comments are used to document what your code does so that others can understand 
   |--------|----------------------------------------------------|
   | **+**  | add one number to another number                   |
   | **-**  | subtract one number from another number            |
-  | **\**  | multiply one number by another number              |
+  | **\***  | multiply one number by another number              |
   | **/**  | divide one number by another number                |
   | **%**  | remainder of dividing one number by another number |
   | **++** | increase the value of a variable by 1              |
@@ -46,7 +46,7 @@ Comments are used to document what your code does so that others can understand 
   |        |                                                 |
   |--------|-------------------------------------------------|
   | **&&** | returns true if both statements are true        |
-  | **||** | returns true if one of the statements are true  |
+  | **\|\|** | returns true if one of the statements are true  |
   | **!**  | reverse the result of a true or false statement |
   ###  4. Assignment Operators
   |         |                                                                                                              |
