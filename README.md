@@ -135,8 +135,8 @@ A statement is an instruction that a program can execute. They are usually made 
 > |               |                                                                                                      |
 > |:-------------:|:-----------------------------------------------------------------------------------------------------|
 > |  **if-else**  | performs a statement 'if' a condition is met and if not (ie. 'else') performs the default statement  |
-> |  **if-else**  | performs a statement 'if' a condition is met and if not, performs a statement 'else if' a condition\
->                   is met and if not (ie. 'else') performs the default statement                                        |
+> |  **if-else**  | '''> performs a statement 'if' a condition is met and if not, performs a statement 'else if' a condition
+                    > is met and if not (ie. 'else') performs the default statement'''                                   |
 > ### Iterative Statements
 > |                   |                                                                                              |
 > |:-----------------:|:---------------------------------------------------------------------------------------------|
