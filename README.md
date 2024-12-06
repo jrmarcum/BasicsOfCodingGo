@@ -132,10 +132,10 @@ Comments are used to document what your code does so that others can understand 
 ## Statements
 A statement is an instruction that a program can execute. They are usually made line by line in your coding file. Lines in your code can have multiple statements that are separated typically by semicolons.
 > ### Conditional Statements
-> |               |                                                                                                      |
-> |:-------------:|:-----------------------------------------------------------------------------------------------------|
-> |  **if-else**  | performs a statement 'if' a condition is met and if not (ie. 'else') performs the default statement  |
-> |  **if-else**  | performs a statement 'if' a condition is met and if not, performs a statement 'else if' a condition is met and if not (ie. 'else') performs the default statement |
+> |                 |                                                                                                      |
+> |:---------------:|:-----------------------------------------------------------------------------------------------------|
+> |   **if-else**   | performs a statement 'if' a condition is met and if not (ie. 'else') performs the default statement  |
+> |   **if-else**   | performs a statement 'if' a condition is met and if not, performs a statement 'else if' a condition is met and if not (ie. 'else') performs the default statement |
 > ### Iterative Statements
 > |                     |                                                                                              |
 > |:-------------------:|:---------------------------------------------------------------------------------------------|
