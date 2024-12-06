@@ -23,40 +23,40 @@ Comments are used to document what your code does so that others can understand 
 ## Identifiers
 
 ## Operators
-  ###  1. Arithmetic Operators
-  |        |                                                    |
-  |--------|----------------------------------------------------|
-  | **+**  | add one number to another number                   |
-  | **-**  | subtract one number from another number            |
-  | **\***  | multiply one number by another number              |
-  | **/**  | divide one number by another number                |
-  | **%**  | remainder of dividing one number by another number |
-  | **++** | increase the value of a variable by 1              |
-  | **--** | decrease the value of a variable by 1              |
-  ###  2. Comparison Operators
-  |        |                                                         |
-  |--------|---------------------------------------------------------|
-  | **==** | check if a variable is equal to another                 |
-  | **!=** | check if a variable is not equal to another             |
-  | **>**  | check if a varaible is greater than another             |
-  | **<**  | check if a variable is less than another                |
-  | **>=** | check if a variable is greater than or equal to another |
-  | **<=** | check if a variable is less than or equal to another    |
-  ###  3. Logical Operators
-  |        |                                                 |
-  |--------|-------------------------------------------------|
-  | **&&** | returns true if both statements are true        |
-  | **\|\|** | returns true if one of the statements are true  |
-  | **!**  | reverse the result of a true or false statement |
-  ###  4. Assignment Operators
-  |         |                                                                                                              |
-  |---------|--------------------------------------------------------------------------------------------------------------|
-  | **=**   | assign a data type to a variable                                                                             |
-  | **+=**  | add a number to the existing value of a variable and assign the result to variable                           |
-  | **-=**  | subtract a number to the existing value of a variable and assign the result to variable                      |
-  | **\*=** | multuply a number to the existing value of a variable and assign the result to variable                      |
-  | **/=**  | divide the existing value of a variable by a number and assign the result to variable                        |
-  | **%=**  | take the remainder of the existing value of a variable divided by a number and assign the result to variable |
+> ###  1. Arithmetic Operators
+> |        |                                                    |
+> |--------|----------------------------------------------------|
+> | **+**  | add one number to another number                   |
+> | **-**  | subtract one number from another number            |
+> | **\***  | multiply one number by another number              |
+> | **/**  | divide one number by another number                |
+> | **%**  | remainder of dividing one number by another number |
+> | **++** | increase the value of a variable by 1              |
+> | **--** | decrease the value of a variable by 1              |
+> ###  2. Comparison Operators
+> |        |                                                         |
+> |--------|---------------------------------------------------------|
+> | **==** | check if a variable is equal to another                 |
+> | **!=** | check if a variable is not equal to another             |
+> | **>**  | check if a varaible is greater than another             |
+> | **<**  | check if a variable is less than another                |
+> | **>=** | check if a variable is greater than or equal to another |
+> | **<=** | check if a variable is less than or equal to another    |
+> ###  3. Logical Operators
+> |        |                                                 |
+> |--------|-------------------------------------------------|
+> | **&&** | returns true if both statements are true        |
+> | **\|\|** | returns true if one of the statements are true  |
+> | **!**  | reverse the result of a true or false statement |
+> ###  4. Assignment Operators
+> |         |                                                                                                              |
+> |---------|--------------------------------------------------------------------------------------------------------------|
+> | **=**   | assign a data type to a variable                                                                             |
+> | **+=**  | add a number to the existing value of a variable and assign the result to variable                           |
+> | **-=**  | subtract a number to the existing value of a variable and assign the result to variable                      |
+> | **\*=** | multuply a number to the existing value of a variable and assign the result to variable                      |
+> | **/=**  | divide the existing value of a variable by a number and assign the result to variable                        |
+> | **%=**  | take the remainder of the existing value of a variable divided by a number and assign the result to variable |
 ## Data Types
   ###  1.  Variables
 >> #### a.  **String, string, str**: used for storing text and/or characters
