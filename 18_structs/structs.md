@@ -6,16 +6,16 @@ ___
 `$ go run structs.go`
 
 ##### Results:
-```
-{Bob 20}
-{Alice 30}
-{Fred 0}
-&{Ann 40}
-&{Jon 42}
-Sean
-50
-51
-```
+
+`{Bob 20}`
+`{Alice 30}`
+`{Fred 0}`
+`&{Ann 40}`
+`&{Jon 42}`
+`Sean`
+`50`
+`51`
+
 ___
 
 ###### This work and the accompanying code was originally from Mark McGranaghan at [https://github.com/mmcgrana/gobyexample](https://github.com/mmcgrana/gobyexample) and licensed under a Creative Commons Attribution 3.0 Unported License [http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/). It has been used to provide an example base for multiple languages to provide a basis of comparitive programming language study for syntax, language simplicity, number of lines of code and operations required to perform the same task, as well as compile and run speed combined.
