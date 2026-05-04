@@ -196,3 +196,26 @@ A statement is an instruction that a program can execute. They are usually made 
 >> #### d. xml
 >>
 >> #### e. csv
+
+## Attribution
+
+This project is adapted in part from **[Go by Example](https://github.com/mmcgrana/gobyexample)**
+by [Mark McGranaghan](https://github.com/mmcgrana), licensed under the
+[Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
+
+The lesson files and code examples derived from that work retain their
+original per-file attribution footer crediting the source. This project
+exists as a platform for multi-language comparative study of syntax,
+language simplicity, lines of code required, and compile/run performance.
+
+## License
+
+This repository contains two tiers of content:
+
+| Content | License |
+| --- | --- |
+| Lesson files and code examples adapted from *Go by Example* | [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/) — see NOTICE |
+| Original contributions by Jon Marcum (project structure, README, comparative study additions) | [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) — see LICENSE |
+
+The root `LICENSE` file (CC0) applies to Jon Marcum's original contributions.
+The `NOTICE` file clarifies that CC BY 3.0 governs all content adapted from *Go by Example*.
