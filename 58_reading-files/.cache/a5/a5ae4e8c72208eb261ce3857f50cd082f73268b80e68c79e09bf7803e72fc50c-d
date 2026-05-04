@@ -1,9 +1,0 @@
-./at_wasip1.go
-./constants.go
-./fcntl_wasip1.go
-./kernel_version_other.go
-./net_wasip1.go
-./nofollow_posix.go
-./nonblocking_wasip1.go
-./syscall.go
-./utimes_wasip1.go
