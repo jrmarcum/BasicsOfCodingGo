@@ -1,0 +1,12 @@
+./dirent.go
+./env_unix.go
+./fs_wasip1.go
+./net.go
+./net_fake.go
+./net_wasip1.go
+./os_wasip1.go
+./syscall.go
+./syscall_wasip1.go
+./tables_wasip1.go
+./time_nofake.go
+./timestruct.go
