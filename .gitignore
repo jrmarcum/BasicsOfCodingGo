@@ -1,0 +1,12 @@
+# Compiled binaries produced by go build (lessons 64-66)
+*.exe
+command-line-arguments
+command-line-flags
+command-line-subcommands
+
+# Temporary files created by lesson examples (lessons 58-60)
+tmp/
+
+# Go test and coverage artifacts
+*.test
+*.out

@@ -47,6 +47,29 @@ Lessons are numbered with a two-digit prefix (e.g., `01_hello-world`). Numbers
 are not strictly contiguous — gaps exist where topics were skipped or reserved
 for future additions.
 
+## .gitignore
+
+The project `.gitignore` covers:
+
+```gitignore
+# Compiled binaries produced by go build (lessons 64-66)
+*.exe
+command-line-arguments
+command-line-flags
+command-line-subcommands
+
+# Temporary files created by lesson examples (lessons 58-60)
+tmp/
+
+# Go test and coverage artifacts
+*.test
+*.out
+```
+
+- `*.exe` and the three named binaries are produced when a reader runs `go build` in lessons 64–66.
+- `tmp/` is the working directory expected by lessons 58 (reading-files), 59 (writing-files), and 60 (line-filters). It must exist at runtime but should not be committed.
+- `*.test` / `*.out` are standard Go toolchain artifacts.
+
 ## Notes for Future Claude Sessions
 
 - The root `LICENSE` file is CC0 but does **not** cover the Go by Example
