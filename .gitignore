@@ -11,5 +11,3 @@ tmp/
 *.test
 *.out
 
-# Upstream reference folder
-upstream/
