@@ -9,7 +9,8 @@ This project is derived in part from "Go by Example" by Mark McGranaghan.
 
 The lesson files and accompanying code examples in this repository that are
 adapted from "Go by Example" are governed by the CC BY 3.0 license above.
-Each such file carries a per-file attribution footer.
+Attribution for all derived content is provided centrally in README.md and
+this NOTICE file, which satisfies the CC BY 3.0 attribution requirement.
 
 This adaptation was made for multi-language comparative study of syntax,
 language simplicity, lines of code, and runtime performance across

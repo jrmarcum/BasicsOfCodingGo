@@ -19,16 +19,9 @@ This project contains two tiers of content with different licenses:
   README, comparative-study additions, and any lessons not derived from
   Go by Example). See LICENSE.
 
-Project-level attribution is covered in NOTICE and the README Attribution/
-License sections. Per-file attribution is covered by the footer that appears
-at the bottom of every lesson `.md` file.
-
-When adding a new lesson adapted from Go by Example, include this footer:
-
-```
-___
-###### This work and the accompanying code was originally from Mark McGranaghan at [https://github.com/mmcgrana/gobyexample](https://github.com/mmcgrana/gobyexample) and licensed under a Creative Commons Attribution 3.0 Unported License [http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/). It has been used to provide an example base for multiple languages to provide a basis of comparitive programming language study for syntax, language simplicity, number of lines of code and operations required to perform the same task, as well as compile and run speed combined.
-```
+Attribution for Go by Example derived content is provided centrally in
+README.md and NOTICE — do **not** add a per-file attribution footer to
+lesson `.md` files.
 
 ## Project Structure
 
@@ -40,7 +33,7 @@ BasicsOfCodingGo/
 ├── README.md          — project overview, attribution section, license table
 └── ##_topic-name/
     ├── topic-name.go  — runnable Go source for the lesson
-    └── topic-name.md  — lesson explanation with per-file attribution footer
+    └── topic-name.md  — lesson explanation (run command + expected output)
 ```
 
 Lessons are numbered with a two-digit prefix (e.g., `01_hello-world`). Numbers
@@ -73,13 +66,13 @@ tmp/
 ## Notes for Future Claude Sessions
 
 - The root `LICENSE` file is CC0 but does **not** cover the Go by Example
-  derived content. Always refer to NOTICE and per-file footers for the full
-  picture; do not treat CC0 as applying to the whole repo.
+  derived content. Always refer to NOTICE and README for the full picture;
+  do not treat CC0 as applying to the whole repo.
 - The project has a `go.mod` file (or individual files use `package main`).
   Check before adding new files that depend on modules.
-- Lesson `.md` files use a consistent format: narrative explanation, code
-  block with output, horizontal rule, attribution footer. Follow this pattern
-  when adding lessons.
+- Lesson `.md` files use a consistent format: optional description line,
+  `___` divider, `##### Run Command:`, run command in backticks, blank line,
+  `##### Results:`, each output line in backticks. No per-file footer.
 - Lessons 58–60 (reading-files, writing-files, line-filters) use `./tmp/` for
   file I/O. The `tmp/` directory is gitignored and must exist at runtime; for
   lesson 58, `tmp/dat.txt` must be pre-populated (content: `hello\ngo\n`).

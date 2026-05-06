@@ -10,6 +10,15 @@ $ go version
 go version 1.23.3 windows/amd64
 (Note: the version shown here varies with your installed version, and the os and cpu will match your os and cpu type)
 ```
+## How to Run Examples
+
+Each lesson folder contains a `.go` source file and a `.md` file showing the run command and expected output. To run any example, navigate to its folder in your terminal first, then use the command shown in the `.md` file:
+
+```
+$ cd 01_hello-world
+$ go run hello-world.go
+```
+
 ## Comments
 Comments are used to document what your code does so that others can understand it when reviewing your code. Comments also document items that are non-performant in order to debug the code items at a later date.
 ## Keywords
