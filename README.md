@@ -212,10 +212,11 @@ This project is adapted in part from **[Go by Example](https://github.com/mmcgra
 by [Mark McGranaghan](https://github.com/mmcgrana), licensed under the
 [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
 
-The lesson files and code examples derived from that work retain their
-original per-file attribution footer crediting the source. This project
-exists as a platform for multi-language comparative study of syntax,
-language simplicity, lines of code required, and compile/run performance.
+This project exists as a platform for multi-language comparative study of
+syntax, language simplicity, lines of code required, and compile/run
+performance. Attribution for Go by Example derived content is provided
+centrally in this README and the NOTICE file — no per-file attribution
+footer is added to individual lesson files.
 
 ## License
 

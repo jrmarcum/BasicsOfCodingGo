@@ -76,6 +76,14 @@ tmp/
 - Lessons 58–60 (reading-files, writing-files, line-filters) use `./tmp/` for
   file I/O. The `tmp/` directory is gitignored and must exist at runtime; for
   lesson 58, `tmp/dat.txt` must be pre-populated (content: `hello\ngo\n`).
-- The `go-run.ps1` runner uses `wasmtime run --dir ".::/"` (host `.` → guest
-  `/`). This works around a Go 1.25 WASI bug where `preparePath` strips the
-  leading `.` from relative paths, causing `path_open` to receive FD -1.
+- **Go 1.25 WASI file I/O bug:** Any WASI runner for this project must pass
+  `--dir ".::/"` to wasmtime (maps host `.` → guest `/`). Root cause:
+  `preparePath` calls `joinPath(".", "hello.txt")` which strips the leading
+  `.`, yielding `"hello.txt"`; the preopen-matching loop then checks
+  `HasPrefix("hello.txt", ".")` → `false`, so `path_open` is called with
+  FD -1 → EBADF ("Bad file number"). Mapping to `/` instead makes the preopen
+  name `/`, so `HasPrefix("/hello.txt", "/")` matches correctly. If file I/O
+  fails with "Bad file number" in any lesson, this is the cause. Affects all
+  lessons that do file I/O (58 reading-files, 59 writing-files, 60
+  line-filters). Any new WASI runner must use `--dir ".::/"` for Go 1.25+
+  with wasmtime.
